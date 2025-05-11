@@ -1,0 +1,67 @@
+.webp-enforcer-modal-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 159900;
+}
+
+.webp-enforcer-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    max-width: 90%;
+    background-color: #fff;
+    border-radius: 4px;
+    z-index: 159901;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.7);
+}
+
+.webp-enforcer-modal-header {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+    position: relative;
+}
+
+.webp-enforcer-modal-header h3 {
+    margin: 0;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.webp-enforcer-modal-close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #666;
+}
+
+.webp-enforcer-modal-close:hover {
+    color: #000;
+}
+
+.webp-enforcer-modal-body {
+    padding: 15px;
+    font-size: 14px;
+}
+
+.webp-enforcer-modal-footer {
+    padding: 15px;
+    border-top: 1px solid #ddd;
+    text-align: right;
+}
+
+.webp-enforcer-modal-footer .button {
+    margin-left: 10px;
+}
+
+body.webp-enforcer-modal-open {
+    overflow: hidden;
+}
